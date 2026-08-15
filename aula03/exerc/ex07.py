@@ -2,7 +2,7 @@ nome = input("Digite seu nome: ").strip().title()
 idade = int(input("Digite sua idade: "))
 valor_inteiro = float(input("Digite o valor em R$: "))
 quantidade = int(input("Digite a quantidade de ingressos: "))
-estudante = input("Você é estudante? (s/n): ")
+estudante = input("Você é estudante? (s/n): ").lower()
 
 if idade <= 12:
     faixa = "INFANTIL"
